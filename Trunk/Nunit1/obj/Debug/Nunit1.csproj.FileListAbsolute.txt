@@ -1,0 +1,9 @@
+c:\TestProjects\BankTestProjects\Nunit1\bin\Debug\Nunit1.dll
+c:\TestProjects\BankTestProjects\Nunit1\bin\Debug\Nunit1.pdb
+c:\TestProjects\BankTestProjects\Nunit1\bin\Debug\BankTestProjects.dll
+c:\TestProjects\BankTestProjects\Nunit1\bin\Debug\nunit.framework.dll
+c:\TestProjects\BankTestProjects\Nunit1\bin\Debug\BankTestProjects.pdb
+c:\TestProjects\BankTestProjects\Nunit1\bin\Debug\nunit.framework.xml
+c:\TestProjects\BankTestProjects\Nunit1\obj\Debug\ResolveAssemblyReference.cache
+c:\TestProjects\BankTestProjects\Nunit1\obj\Debug\Nunit1.dll
+c:\TestProjects\BankTestProjects\Nunit1\obj\Debug\Nunit1.pdb
