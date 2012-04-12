@@ -47,7 +47,7 @@ namespace BankTestProjects
         }
 
         [Test]
-        [Ignore("Check the logic of the transfer funds method")]
+      // [Ignore("Check the logic of the transfer funds method")]
         public void TransferWithInsufficientFundsAtomicity()
         {
         //    BankAccount source = new BankAccount();

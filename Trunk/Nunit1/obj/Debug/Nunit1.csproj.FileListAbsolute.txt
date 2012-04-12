@@ -7,3 +7,12 @@ c:\TestProjects\BankTestProjects\Nunit1\bin\Debug\nunit.framework.xml
 c:\TestProjects\BankTestProjects\Nunit1\obj\Debug\ResolveAssemblyReference.cache
 c:\TestProjects\BankTestProjects\Nunit1\obj\Debug\Nunit1.dll
 c:\TestProjects\BankTestProjects\Nunit1\obj\Debug\Nunit1.pdb
+C:\TestProjects\BankTestProjects\Trunk\Nunit1\bin\Debug\Nunit1.dll
+C:\TestProjects\BankTestProjects\Trunk\Nunit1\bin\Debug\Nunit1.pdb
+C:\TestProjects\BankTestProjects\Trunk\Nunit1\bin\Debug\BankTestProjects.dll
+C:\TestProjects\BankTestProjects\Trunk\Nunit1\bin\Debug\nunit.framework.dll
+C:\TestProjects\BankTestProjects\Trunk\Nunit1\bin\Debug\BankTestProjects.pdb
+C:\TestProjects\BankTestProjects\Trunk\Nunit1\bin\Debug\nunit.framework.xml
+C:\TestProjects\BankTestProjects\Trunk\Nunit1\obj\Debug\ResolveAssemblyReference.cache
+C:\TestProjects\BankTestProjects\Trunk\Nunit1\obj\Debug\Nunit1.dll
+C:\TestProjects\BankTestProjects\Trunk\Nunit1\obj\Debug\Nunit1.pdb

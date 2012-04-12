@@ -5,3 +5,10 @@ c:\TestProjects\BankTestProjects\BankTestProjects\bin\nunit.framework.xml
 c:\TestProjects\BankTestProjects\BankTestProjects\obj\Debug\ResolveAssemblyReference.cache
 c:\TestProjects\BankTestProjects\BankTestProjects\obj\Debug\BankTestProjects.dll
 c:\TestProjects\BankTestProjects\BankTestProjects\obj\Debug\BankTestProjects.pdb
+C:\TestProjects\BankTestProjects\Trunk\BankTestProjects\bin\BankTestProjects.dll
+C:\TestProjects\BankTestProjects\Trunk\BankTestProjects\bin\BankTestProjects.pdb
+C:\TestProjects\BankTestProjects\Trunk\BankTestProjects\bin\nunit.framework.dll
+C:\TestProjects\BankTestProjects\Trunk\BankTestProjects\bin\nunit.framework.xml
+C:\TestProjects\BankTestProjects\Trunk\BankTestProjects\obj\Debug\ResolveAssemblyReference.cache
+C:\TestProjects\BankTestProjects\Trunk\BankTestProjects\obj\Debug\BankTestProjects.dll
+C:\TestProjects\BankTestProjects\Trunk\BankTestProjects\obj\Debug\BankTestProjects.pdb
