@@ -51,6 +51,12 @@ namespace BankTestProjects
             Assert.AreEqual(1, 1);
         }
 
+        [Test]
+        public void onePlusOneTestA()
+        {
+            Assert.AreEqual(1, 1);
+        }
+
 
         [Test]
       [Ignore("Check the logic of the transfer funds method")]
