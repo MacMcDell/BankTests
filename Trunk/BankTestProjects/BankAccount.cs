@@ -23,13 +23,18 @@ namespace BankTestProjects
             Balance -= Amount;
         }
 
-        public void TransferFunds(BankAccount destination, float amount)
+        public int TransferFunds(BankAccount destination, float amount)
         {
             destination.Deposit(amount);
             if (Balance - amount < MinimumBalance)
+                {
+               
+                return 0; 
                 throw new InsufficientFundsException();
+                }
 
             Withdraw(amount);
+            return 1;
         }
 
 
@@ -38,7 +43,6 @@ namespace BankTestProjects
 
     public class InsufficientFundsException : ApplicationException
     {
-    
-    
+        
     }
 }

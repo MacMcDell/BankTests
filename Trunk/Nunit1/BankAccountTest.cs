@@ -45,21 +45,10 @@ namespace BankTestProjects
        //     destination.Deposit(150.00F);
             source.TransferFunds(destination, 300.00F);
         }
-        [Test]
-        public void onePlusOneTest()
-        {
-            Assert.AreEqual(1, 1);
-        }
+     
 
         [Test]
-        public void onePlusOneTestA()
-        {
-            Assert.AreEqual(1, 1);
-        }
-
-
-        [Test]
-      [Ignore("Check the logic of the transfer funds method")]
+   //   [Ignore("Check the logic of the transfer funds method")]
         public void TransferWithInsufficientFundsAtomicity()
         {
         //    BankAccount source = new BankAccount();
