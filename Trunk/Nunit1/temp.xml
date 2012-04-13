@@ -1,0 +1,46 @@
+﻿<cruisecontrol xmlns:cb="urn:ccnet.config.builder">
+  <project name="BankTests">
+    <workingDirectory>C:\Builds\BankTestProjects</workingDirectory>
+    <artifactDirectory>C:\Artifacts\BankTestProjects</artifactDirectory>
+    <triggers>
+      <intervalTrigger initialSeconds="0" />
+    </triggers>
+    <sourcecontrol type="git">
+      <repository>git://github.com/MacMcDell/BankTests.git</repository>
+      <branch>master</branch>
+      <autoGetSource>true</autoGetSource>
+      <executable>C:\Program Files (x86)\Git\cmd\git.cmd</executable>
+      <tagOnSuccess>false</tagOnSuccess>
+      <commitBuildModifications>false</commitBuildModifications>
+      <commitUntrackedFiles>false</commitUntrackedFiles>
+      <timeout>10000</timeout>
+    </sourcecontrol>
+    <tasks>
+      <exec Command="C:\Program Files (x86)\NUnit 2.6\bin\nunit-console.exe C:\Builds\BankTestProjects\Trunk\Nunit1\bin\Debug\Nunit1.dll /xml C:\TestResults\NunitTests.xml" />
+      <exec>
+        <executable>nunit-console.exe</executable>
+        <baseDirectory>C:\Program Files (x86)\NUnit 2.6\bin</baseDirectory>
+        <buildArgs>C:\Builds\BankTestProjects\Trunk\Nunit1\bin\Debug\Nunit1.dll /xml C:\TestResults\NunitTests.xml</buildArgs>
+      </exec>
+    <nunit>
+      <path>C:\Program Files (x86)\NUnit 2.6\bin\nunit-console.exe</path>
+      <assemblies>
+        <assembly>C:\Builds\BankTestProjects\Trunk\Nunit1\bin\Debug\Nunit1.dll</assembly>
+        <assembly>C:\TestProjects\BankTestProjects\Trunk\Nunit1\bin\Debug\Nunit1.dll</assembly>
+      </assemblies>
+    </nunit>
+    </tasks>
+    <publishers>
+      <merge>
+        <files>
+          <file>C:\TestResults\NunitTests.xml</file>
+        </files>
+      </merge>
+      <xmllogger />
+      <statistics />
+    </publishers>
+  </project>
+</cruisecontrol>
+
+
+
