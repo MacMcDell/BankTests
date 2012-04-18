@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build;Deploy;Execute;Tidy" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-		<UsingTask AssemblyFile="CommunityTasks\MSBuild.Community.Tasks.dll" TaskName="MSBuild.Community.Tasks.Zip" />
-		<UsingTask AssemblyFile="CommunityTasks\MSBuild.Community.Tasks.dll" TaskName="MSBuild.Community.Tasks.Mail" />
-		<UsingTask AssemblyFile="CommunityTasks\MSBuild.Community.Tasks.dll" TaskName="MSBuild.Community.Tasks.Time" />
+		<UsingTask AssemblyFile="Tools\MSBuild.Community.Tasks.dll" TaskName="MSBuild.Community.Tasks.Zip" />
+		<UsingTask AssemblyFile="Tools\MSBuild.Community.Tasks.dll" TaskName="MSBuild.Community.Tasks.Mail" />
+		<UsingTask AssemblyFile="Tools\MSBuild.Community.Tasks.dll" TaskName="MSBuild.Community.Tasks.Time" />
 	<PropertyGroup>
-		<OutputFile>HelloMsBuild.exe</OutputFile>
+	<!-- 	<OutputFile>HelloMsBuild.exe</OutputFile> -->
 		<OutputDirectory>Output</OutputDirectory>
 		<Debug Condition="'$(Delete)'==''">true</Debug>
 	</PropertyGroup>
-	<ItemGroup>
+	<!-- <ItemGroup>
 		<CompileFiles Include="Hello.cs" />
 		<DeleteFiles Include="HelloMsBuild.exe;HelloMsBuild.pdb" />
-	</ItemGroup>
+	</ItemGroup> -->
 	<Target Name="Clean">
-		<Delete Files="@(DeleteFiles)" />
+		<!-- <Delete Files="@(DeleteFiles)" /> -->
 		<Delete Files="$(OutputDirectory)|**\*" />
 		<RemoveDir Directories="$(OutputDirectory)" />
 	</Target>
 	<Target Name="Build" DependsOnTargets="Clean">
-		<Csc Sources="@(CompileFiles)" OutputAssembly="$(OutputFile)" EmitDebugInformation="$(Debug)" />
+		<!-- <Csc Sources="@(CompileFiles)" OutputAssembly="$(OutputFile)" EmitDebugInformation="$(Debug)" /> -->
 	</Target>
 	<Target Name="Deploy" DependsOnTargets="Clean;Build">
 		<MakeDir Directories="$(OutputDirectory)" />
-		<Copy SourceFiles="$(OutputFile)" DestinationFolder="$(OutputDirectory)" />
+		<!-- <Copy SourceFiles="$(OutputFile)" DestinationFolder="$(OutputDirectory)" /> -->
 		<Time Format="yyyyMMddHHmmss">
 			<Output TaskParameter="FormattedTime" PropertyName="BuildDate" />
 		</Time>
@@ -37,6 +37,6 @@
 		<Exec  WorkingDirectory="$(OutputDirectory)" Command="$(OutputFile)"></Exec>
 	--></Target>
 	<Target Name="Tidy">
-		<Delete Files="@(DeleteFiles)" />
+		<!-- <Delete Files="@(DeleteFiles)" /> -->
 	</Target>
 </Project>
