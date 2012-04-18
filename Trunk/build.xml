@@ -5,7 +5,7 @@
 		<UsingTask AssemblyFile="Tools\MSBuild.Community.Tasks.dll" TaskName="MSBuild.Community.Tasks.Time" />
 	<PropertyGroup>
 	<!-- 	<OutputFile>HelloMsBuild.exe</OutputFile> -->
-		<OutputDirectory>Output</OutputDirectory>
+		<OutputDirectory>$[$CCNetLabel]</OutputDirectory>
 		<Debug Condition="'$(Delete)'==''">true</Debug>
 	</PropertyGroup>
 	<!-- <ItemGroup>
