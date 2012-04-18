@@ -13,9 +13,9 @@
 		<DeleteFiles Include="HelloMsBuild.exe;HelloMsBuild.pdb" />
 	</ItemGroup> -->
 	<Target Name="Clean">
-		<!-- <Delete Files="@(DeleteFiles)" /> -->
+		<!-- <Delete Files="@(DeleteFiles)" />
 		<Delete Files="$(OutputDirectory)|**\*" />
-		<RemoveDir Directories="$(OutputDirectory)" />
+		<RemoveDir Directories="$(OutputDirectory)" /> -->
 	</Target>
 	<Target Name="Build" DependsOnTargets="Clean">
 		<!-- <Csc Sources="@(CompileFiles)" OutputAssembly="$(OutputFile)" EmitDebugInformation="$(Debug)" /> -->
@@ -26,7 +26,7 @@
 		<Time Format="yyyyMMddHHmmss">
 			<Output TaskParameter="FormattedTime" PropertyName="BuildDate" />
 		</Time>
-		<Zip Files="$(OutputFile)" ZipFileName="HelloMSBuild.$(BuildDate).zip" />
+		<Zip Files="$(OutputFile)" ZipFileName="$(OutputDirectory)\HelloMSBuild.$(BuildDate).zip" />
 		<Mail SmtpServer = "mail.stockhouse.com"  To="mac.mcdell@stockhouse.com" From="mac.mcdell@stockhouse.com" Subject="Build - MSbuild_$(BuildDate) Succeeded! " 
 		body = "Body" /> 
 		
