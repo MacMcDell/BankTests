@@ -1,7 +1,0 @@
-C:\Builds\BankTestProjects\Trunk\Nunit1\obj\Debug\ResolveAssemblyReference.cache
-C:\Builds\BankTestProjects\Trunk\Nunit1\bin\Debug\Nunit1.dll
-C:\Builds\BankTestProjects\Trunk\Nunit1\bin\Debug\Nunit1.pdb
-C:\Builds\BankTestProjects\Trunk\Nunit1\bin\Debug\BankTestProjects.dll
-C:\Builds\BankTestProjects\Trunk\Nunit1\bin\Debug\BankTestProjects.pdb
-C:\Builds\BankTestProjects\Trunk\Nunit1\obj\Debug\Nunit1.dll
-C:\Builds\BankTestProjects\Trunk\Nunit1\obj\Debug\Nunit1.pdb
