@@ -12,3 +12,16 @@ C:\TestProjects\BankTestProjects\Trunk\BankTestProjects\bin\nunit.framework.xml
 C:\TestProjects\BankTestProjects\Trunk\BankTestProjects\obj\Debug\ResolveAssemblyReference.cache
 C:\TestProjects\BankTestProjects\Trunk\BankTestProjects\obj\Debug\BankTestProjects.dll
 C:\TestProjects\BankTestProjects\Trunk\BankTestProjects\obj\Debug\BankTestProjects.pdb
+C:\TestProjects\BankTests\Trunk\BankTestProjects\bin\BankTestProjects.dll
+C:\TestProjects\BankTests\Trunk\BankTestProjects\bin\BankTestProjects.pdb
+C:\TestProjects\BankTests\Trunk\BankTestProjects\bin\nunit.framework.dll
+C:\TestProjects\BankTests\Trunk\BankTestProjects\bin\nunit.framework.xml
+C:\TestProjects\BankTests\Trunk\BankTestProjects\obj\Debug\ResolveAssemblyReference.cache
+C:\TestProjects\BankTests\Trunk\BankTestProjects\obj\Debug\BankTestProjects.dll
+C:\TestProjects\BankTests\Trunk\BankTestProjects\obj\Debug\BankTestProjects.pdb
+C:\Builds\BankTestProjects\Trunk\BankTestProjects\bin\BankTestProjects.dll
+C:\Builds\BankTestProjects\Trunk\BankTestProjects\bin\BankTestProjects.pdb
+C:\Builds\BankTestProjects\Trunk\BankTestProjects\bin\nunit.framework.xml
+C:\Builds\BankTestProjects\Trunk\BankTestProjects\obj\Debug\ResolveAssemblyReference.cache
+C:\Builds\BankTestProjects\Trunk\BankTestProjects\obj\Debug\BankTestProjects.dll
+C:\Builds\BankTestProjects\Trunk\BankTestProjects\obj\Debug\BankTestProjects.pdb
