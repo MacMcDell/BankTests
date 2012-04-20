@@ -13,7 +13,7 @@
 </PropertyGroup>
 
 	<Target Name="Build" >
-		<MSBuild Targets="Clean;Rebuild" Projects="Nunit1.csproj" ContinueOnError="false" />
+		<MSBuild Targets="Clean;Build" Projects="Nunit1.csproj" ContinueOnError="false" />
 	</Target>
 	<Target Name="Test">
 		<Exec Command="$(NunitDir)$(NunitExec) $(TestAssemblies)\Nunit1.dll /xml=C:\TestResults\Production.xml" /> 
