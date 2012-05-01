@@ -1,1 +1,1 @@
-this resolves ticket 1 and 2.
+This is for ticket 1 changes. 
