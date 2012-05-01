@@ -1,10 +1,2 @@
-change the file
-Another change
-Another Change
-
-
-regular changes
-thsi
-another
 
 thsi is for ticket 2
