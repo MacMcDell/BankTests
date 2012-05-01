@@ -1,7 +1,6 @@
 <<<<<<< HEAD
-Add Files 1
-I changed the file
+this resolves ticket 1 and 2.
 =======
-Add Files 1
-Chagne the file
->>>>>>> 26a021a86d37c89e0508d4463edb280e8283abaf
+ :
+This is for ticket 1 changes. 
+>>>>>>> Ticket1
