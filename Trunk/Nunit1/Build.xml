@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build;Test;Clean;Confirm" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-		<UsingTask AssemblyFile="C:\Builds\BankTestProjects\Trunk\Tools\MSBuild.Community.Tasks.dll" TaskName="MSBuild.Community.Tasks.Zip" />
+	<!--	<UsingTask AssemblyFile="C:\Builds\BankTestProjects\Trunk\Tools\MSBuild.Community.Tasks.dll" TaskName="MSBuild.Community.Tasks.Zip" />-->
 		<UsingTask AssemblyFile="C:\Builds\BankTestProjects\Trunk\Tools\MSBuild.Community.Tasks.dll" TaskName="MSBuild.Community.Tasks.Mail" />
 		<UsingTask AssemblyFile="C:\Builds\BankTestProjects\Trunk\Tools\MSBuild.Community.Tasks.dll" TaskName="MSBuild.Community.Tasks.Time" />
 
